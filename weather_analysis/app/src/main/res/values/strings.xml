@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">WeatherAnalysis</string>
+    <string name="preferences_name" translatable="false">MyPref</string>
+    <string name="token" translatable="false">token</string>
+    <string name="logout_button">Log Out</string>
+    <string name="login">Login</string>
+    <string name="login_success_message">Logged in!</string>
+    <string name="register_success_message">Registered!</string>
+    <string name="pass" translatable="false">Password</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="login_message">Please enter your credentials</string>
+    <string name="register">Register</string>
+    <string name="start_work">Start Weather collection</string>
+    <string name="stop_Work">Stop Weather collection </string>
+    <string name="no_permissions_message">Please select  all the  location permissions for this app to function</string>
+    <string name="background_location_request">Please select allow all the time for the app to work Properly. It is necessary for selecting weather data when the app is in background.</string>
+    <string name="retry_request_permissions">The Location is essential for this app to function properly. Please Reconsider and remove deny from location permissions for this app.</string>
+    <string name="cancel">Cancel</string>
+    <string name="failure">Failure</string>
+    <string name="wrong_format_pass_message">Wrong format for password! Must be at 6 characters</string>
+    <string name="wrong_format_email_message">Wrong format for email!</string>
+    <string name="worker_tag_name" translatable="false">Upload_Weather</string>
+    <string name="previous_pressure_pref" translatable="false">previous_barometric_pressure</string>
+    <string name="no_activity_recognition_request">Activity Recognition is essential for the app. Please Reconsider!</string>
+    <string name="no_notification_request">Notifications is essential for the app. Please Reconsider!</string>
+    <string name="timeout_error">Timeout error, please try again later!</string>
+    <string name="error">Error</string>
+    <string name="wrong_credentials">Wrong Credentials!</string>
+    <string name="user_already_exists">User already exists!</string>
+    <string name="autostart_prompt">Please enable autoStart for the app to send weather data in the background!</string>
+    >
+    <string name="no_miui_prompt">You don\'t have MIUI, no need for autostart Permission.</string>
+    <string name="autostart_cancel_prompt">It is necessary for sending data since you are using MIUI!</string>
+
+    <string name="token_expired">Token expired!</string>
+    <string name="location_perm_altered_title">Location permission altered!</string>
+    <string name="location_perm_altered_content">Location permission altered, please revert your permission to the previous value!</string>
+    <string name="unique_work_name" translatable="false">upload</string>
+    <string name="battery_saver_instructions_prompt_part_2">
+        I you enable the saver after you start the procedure then it will stop and you either have to restart it and have the app unrestricted in the battery saver or
+    disable battery saver and restart the procedure.</string>
+    <string name="general_instructions_prompt_part_1">To collect weather data you have to press the start button. Then it will run at certain times in the background
+    to collect data. You have to have battery saver off or having the app unrestricted from battery saver.</string>
+    <string name="next">Next</string>
+
+    <string name="info_button_title">Info</string>
+    <string name="home_button_title">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="language">Language</string>
+    <string name="general_info_title">General Info</string>
+    <string name="chinese_phone_info">Important Info for Chinese phones</string>
+    <string name="battery_info">Info about battery</string>
+    <string-array name="info_array">
+        <item>@string/general_info_title</item>
+        <item>@string/chinese_phone_info</item>
+    </string-array>
+    <string name="greek">Greek</string>
+    <string name="english">English</string>
+    <string-array name="languages">
+        <item>@string/english</item>
+        <item>@string/greek</item>
+    </string-array>
+    <string name="general_info_prompt">The purpose of the app is to collect meteorological data to produce informative statistics. The collection occurs in the background at random intervals. To initiate the process, you need to press the button below to access the home activity. There, you should press the \'Start Weather Collection\' button. You can stop the process at any time by pressing \'Stop\' in the home activity.
+        \n\n<b>Important.</b>\n\n
+        If your device is a <i>Chinese device</i>, please refer to the important information regarding Chinese phones, as there are specific peculiarities regarding background operations.\n\nIf the battery saver (power saver) mode is enabled, the app will not collect data when the phone is idle. In case you are unfamiliar with battery saver, it is a feature that helps reduce battery consumption.
+    </string>
+    <string name="chinese_phone_info_prompt">If you have a chinese phone, there are certain background limitations that differ from other phones. To ensure proper functionality of the app, you will be prompted to grant the \'AutoStart\' permission. Once agreed, you will be redirected to the AutoStart settings where you need to locate the app\'s name and enable the permission specifically for this app. To return to the app, simply press the upper left arrow button. Since it\'s not possible to verify if the permission is enabled due to its limited usage on Chinese phones, the permission will be requested each time you open the main screen of the app. If you decline to grant the permission, the app will not operate in the background.
+    \n\n
+     Additionally, you will be prompted to exclude the app from battery limitations imposed by your phone\'s battery saver. In case you\'re unfamiliar with battery saver, it helps reduce battery consumption. On Chinese phones, the default behavior of the battery saver is to terminate the app and any associated background processes when the phone is idle or when the app is removed from the \'recent apps\' list. If you choose \'OK,\' you will be taken to the battery settings specific to this app. From there, you can select \'Unrestricted\' and press the upper left arrow to return to the app. Otherwise, the app will not operate in the background.
+
+    </string>
+    <string name="battery_info_prompt">
+        Since the app works in the background it may consume battery. So, it is recommended that you have normal levels of battery before you start the operation. If you have low battery, bellow 10%, then it will not run until it reaches beyond that level. Thus you can save your battery life when it is low.
+        \n\n
+        If you have battery saver turned on, then the app wouldn’t work in the background. If you have it on and try to start the process of collecting data, then you will be requested to exclude the app from battery saver.  If you agree, then the app will function correctly.
+        \n\n
+        But be careful. If you don’t have it on and you open it the process of collecting will be terminated. If you want to resume you have to open the app and restart it by pressing the button in Home.
+    </string>
+    <string name="battery_saver_opt_prompt">You have battery saver on. You can either press cancel(which will close the app) and remove the saver before reattempting to start the process or exempt the app from the saver by pressing OK.</string>
+    <!--TODO add battery prompt-->
+    <string name="request_ignore_batttery_prompt">Your phone has a battery saver that is different from conventional ones. By default it kills all processes when the app is closed(removed from resents) or when the phone is idle. The solution is to except the app from the saver.\nBy pressing OK you will be redirected to the battery settings where you must select unrestricted access for this app to work properly in the background.</string>
+    <string name="activity_rec_permission_lost_title">Activity Recognition Permission Altered!</string>
+    <string name="activity_rec_permission_lost_content">Activity Recognition permission altered.\nPlease revert your permission to the previous value!</string>
+    <string name="retry_location_request_prompt">Location access is required!</string>
+    <string name="num_collection_default_text">Number of collections: 0</string>
+    <string name="last_time_collecting_default_text">Last time collecting: None</string>
+    <string name="num_collection_desription">Number of collections: </string>
+    <string name="last_time_collecting_description">Last time collecting: %1$s</string>
+    <string name="battery_restriction_lift_prompt">You have restricted background access to this app!\nPlease reconsider your previous decision, because the app cannot collect weather data.\nPlease lift the restriction in battery saver that you imposed on this app.</string>
+    <string name="change_language_button_text">Change Language</string>
+    <string name="work_timeout_title_notification">Timeout error</string>
+    <string name="token_expired_notification_message">Please re-sign, the collection process was stopped!</string>
+    <string name="no_collection_notification_title">Collection process stopped</string>
+    <string name="no_collection_notification_message">To restart the collection open the app and start the process again.</string>
+    <string name="cannot_alarm_notif_title">Alarm Perm removed</string>
+    <string name="cannot_alarm_notif_message">Please open the app and give it back for the app to function.</string>
+    <string name="start">Start</string>
+    <string name="or">OR</string>
+    <string name="wrongCredentials">You entered wrong credentials! Please try again.</string>
+    <string name="userExists">The email address is already in use by another account.</string>
+    <string name="wrongPassword">The given password is invalid. [ Password should be at least 6 characters ]</string>
+    <string name="fine_location_prompt">Precise location is vital for collecting accurate weather data.\nPlease give permission for fine location.</string>
+    <string name="intro_text">Welcome to the Weather Analysis App. The function of the app is to periodically access non-personal data from your device and send it to our server to produce meteorological statistics. For the app to function properly, a login is required to ensure a safe transaction between the app and our server.</string>
+    <string name="press_back_button_again">Please click BACK again to exit the app</string>
+    <string name="confirm_pass">Confirm password</string>
+    <string name="signUpPrompt">Don\'t have an email account? Sign up now!</string>
+    <string name="logInPrompt">Already having an email account? Log in now!</string>
+    <string name="login_error">Login Failed!</string>
+    <string name="work_failure">Work ceased! Please restart the process.</string>
+    <string name="no_network">Work ceased! Please connect to the internet and restart the process.</string>
+    <string name="please_wait">Please wait</string>
+    <string name="no_location">Cannot access current location</string>
+    <string name="try_again">Please try again</string>
+</resources>

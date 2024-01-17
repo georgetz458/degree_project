@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="imageButton_color">#FFBB86FC</color>
+    <color name="help_icon_color">#000000</color>
+    <color name="background_view">#121212</color>
+    <color name="important_text_color">#FFBB86FC</color>
+</resources>
