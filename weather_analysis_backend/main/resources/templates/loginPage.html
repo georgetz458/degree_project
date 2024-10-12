@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xml:lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .login-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+            width: 50%;
+        }
+        .btn-input {
+            width: 100%;
+        }
+        input[type="email"],
+        input[type="password"] {
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="navbar-dark bg-dark bg-gradient">
+
+<div class="container">
+    <div class="login-box">
+        <h1>Login for Admins</h1>
+        <div class="alert alert-danger" id="login-error" style="display: none"></div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" id="password" name="password" minlength="6" maxlength="32" required>
+            </div>
+
+            <div class="form-group">
+                <button id="login" class="btn btn-primary btn-input">Login</button>
+
+            </div>
+
+        <button  class="btn btn-secondary btn-input"  id="cancel">Cancel</button>
+    </div>
+</div>
+
+<script type="module" src="/js/FirebaseFunctions.js"></script>
+<script type="module" src="/js/LoginPage.js">
+
+</script>
+
+</body>
+</html>
